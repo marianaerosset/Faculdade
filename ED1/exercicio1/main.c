@@ -10,7 +10,7 @@ int main(){
     
     printf("Insira a altura da arvore: ");
     scanf("%d", &h);
-    n = pow(2, h) - 1; // cálculo do número de nós da ABC
+    n = (int)pow(2, h) - 1; // cálculo do número de nós da ABC
 
     int t[n+1]; // facilita os cálculos começar por t[1]
     
