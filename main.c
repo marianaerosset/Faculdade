@@ -12,7 +12,7 @@ int main(){
     scanf("%d", &h);
     n = pow(2, h) - 1;
 
-    int t[n+1];
+    int t[n+1]; // facilita os cálculos começar por t[1]
     
     for(int i = 1; i < n+1; i++){
         scanf("%d", &t[i]);
